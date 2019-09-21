@@ -11,7 +11,7 @@ let list = document.getElementById('tasks');
     event.preventDefault();  
     let inputVal = input.value;
 
-   let list = document.getElementById('tasks');
+    let task = document.createElement('li');
     task.innerText = inputVal;
     list.appendChild(task);
     
