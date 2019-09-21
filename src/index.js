@@ -7,6 +7,7 @@ let list = document.getElementById('tasks');
  function todo(event){
    event.preventDefault();
    let list = document.getElementById('tasks');
+let list = document.getElementById('tasks');
 
  }
 
