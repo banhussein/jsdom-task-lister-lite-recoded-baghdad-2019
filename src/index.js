@@ -8,6 +8,7 @@ let list = document.getElementById('tasks');
    event.preventDefault();
    let list = document.getElementById('tasks');
 let list = document.getElementById('tasks');
+let list = document.getElementById('tasks');
 
  }
 
