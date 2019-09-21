@@ -4,5 +4,8 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 let input =document.getElementById('new-task-description');
 let list = document.getElementById('tasks');
-
+ function todo(event){
+   event.preventDefault();
+   
+ }
 
