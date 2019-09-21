@@ -10,7 +10,7 @@ let list = document.getElementById('tasks');
  function todo(event){
    event.preventDefault();
    let list = document.getElementById('tasks');
-
+   let inputVal = input.value;
     task.innerText = inputVal;
     list.appendChild(task);
     
